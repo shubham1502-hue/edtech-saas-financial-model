@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+*.xlk
+
+# Office lock files
+.~lock.*
+
+# Python (if any analysis scripts added later)
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Node (if any tooling added)
+node_modules/
+
+# Logs
+*.log
+
+# OS temp files
+*.tmp
+*.bak
+*.swp
