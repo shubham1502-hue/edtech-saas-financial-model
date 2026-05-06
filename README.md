@@ -1,5 +1,21 @@
 # EdTech SaaS Financial Model — 3-Year Forecast
 
+## Problem This Solves
+
+Early SaaS founders often know their revenue goal but do not have a clean model connecting customers, ARPU, churn, CAC, burn, runway, and profitability. That makes hiring, fundraising, and pricing conversations vague.
+
+## How It Helps
+
+- Provides a bottom-up 36-month model where assumptions drive revenue, unit economics, P&L, burn, and runway.
+- Makes investor and founder conversations concrete by showing what must be true for the company to reach the target scenario.
+- Gives operators a clean workbook structure they can adapt for any subscription business.
+
+## When To Fork This
+
+- Fork this if you are modeling an EdTech, SaaS, cohort-based, or subscription business from first principles.
+- Fork it before a fundraise, pricing review, hiring plan, or board-style operating review.
+- Change the assumptions sheet first: starting customers, ARPU, churn, expansion, CAC, gross margin, OpEx, and starting cash.
+
 > A bottom-up SaaS financial model built for an EdTech business, covering revenue build-up, unit economics, P&L, and cash burn over a 36-month horizon.
 
 **Built by:** Shubham Singh  
