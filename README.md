@@ -23,6 +23,21 @@ Early SaaS founders often know their revenue goal but do not have a clean model 
 
 ---
 
+## Use This In Your Company
+
+- Use it as a first financial model for SaaS, EdTech, cohort-based courses, or subscription education products.
+- Keep the workbook structure: revenue build-up, unit economics, P&L, burn, and runway.
+- Replace assumptions rather than rebuilding formulas from scratch.
+
+## Minimum Edits To Make It Yours
+
+- pricing assumptions
+- conversion and retention assumptions
+- hiring and cost plan
+- fundraise/runway assumptions
+
+The fastest path is: fork the repo, replace the inputs above, run the demo or open the template, then adjust only the parts that reflect your company's workflow.
+
 ## Model Overview
 
 | Metric | Value (Default Scenario) |
