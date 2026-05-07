@@ -2,11 +2,11 @@
 
 All notable changes to this model will be documented here.
 
-Format: `[Version] — YYYY-MM-DD`
+Format: `[Version] - YYYY-MM-DD`
 
 ---
 
-## [1.0.0] — 2025-05-05
+## [1.0.0] - 2025-05-05
 
 ### Initial Release
 

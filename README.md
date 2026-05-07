@@ -1,4 +1,151 @@
-# EdTech SaaS Financial Model — 3-Year Forecast
+# EdTech SaaS Financial Model - 3-Year Forecast
+
+Bottom-up SaaS financial model connecting customers, ARPU, churn, CAC, burn, runway, and profitability assumptions.
+
+<!-- FOUNDER_OS_STANDARD_README -->
+
+## The founder problem
+
+Early SaaS founders often know the revenue target but do not have a clean model connecting growth, retention, pricing, hiring, burn, runway, and profitability. That makes fundraising and hiring conversations vague.
+
+## What this repo does
+
+- provides a 36-month workbook
+- connects assumptions to revenue, unit economics, P&L, burn, and runway
+- documents editable assumptions
+- gives founders a scenario model to adapt
+
+## What a founder gets in 10 minutes
+
+- Excel financial model
+- assumption guide
+- revenue and runway view
+- unit economics checks
+
+## Before and after
+
+Before:
+
+- revenue goal without operating assumptions
+- pricing debate without payback view
+- hiring plan disconnected from runway
+- fundraising story without model
+
+After:
+
+- bottom-up forecast
+- editable assumptions
+- runway and burn view
+- clearer investor conversation
+
+## Who this is for
+
+- SaaS founders
+- Founder Office candidates
+- BizOps operators
+- startup generalists
+- students learning financial modeling
+
+## Quick start
+
+- Open `EdTech_SaaS_Financial_Model.xlsx`.
+- Open `ASSUMPTIONS.md` beside it.
+- Edit the blue assumption cells in the workbook.
+- Review revenue, unit economics, P&L, and burn/runway sheets.
+
+## How to fork and use this for your company
+
+1. Click Fork.
+2. Rename the repo if needed.
+3. Fork or download the repo.
+4. Rename the workbook for your company.
+5. Replace sample assumptions with your own pricing, conversion, churn, CAC, hiring, and cost assumptions.
+6. Keep private financial data out of public forks.
+
+### Non-technical path
+
+- Replace one workbook: `EdTech_SaaS_Financial_Model.xlsx` assumptions.
+- Edit one guide: `ASSUMPTIONS.md` if your assumptions differ.
+- Run no code.
+- Read one output first: the Burn & Runway sheet.
+
+## Input format
+
+- pricing and package assumptions
+- customer acquisition assumptions
+- conversion and churn assumptions
+- hiring plan
+- operating cost plan
+- starting cash
+
+The default sample data and examples are synthetic, anonymized, or template-only unless the repo explicitly documents a public source. Keep private customer, prospect, employee, investor, borrower, merchant, payment, or company data out of public forks.
+
+## Output files
+
+- `EdTech_SaaS_Financial_Model.xlsx`: full financial model
+- `ASSUMPTIONS.md`: assumption guide
+
+## Example founder workflow
+
+- Monday: update assumptions.
+- Tuesday: inspect revenue and unit economics.
+- Wednesday: review burn and runway.
+- Thursday: pressure-test hiring or pricing changes.
+- Friday: summarize the decision for founders or investors.
+
+## Customization guide
+
+Customize these before using the repo for a real company:
+
+- pricing tiers
+- conversion rates
+- retention and churn
+- CAC
+- hiring plan
+- cash balance
+- operating expenses
+
+## Where this fits in the Founder OS
+
+This is a strategy and financial model module. Pair it with `startup-metrics-playbook` for metric definitions and `board-pack-investor-update-agent` when turning model outputs into investor narrative.
+
+## Why this matters
+
+This is not just a spreadsheet. It is a decision model for understanding what must be true for a SaaS plan to work.
+
+## Roadmap
+
+- Google Sheets version
+- scenario selector
+- fundraising case output
+- board pack export
+- pricing sensitivity table
+
+## Contributing
+
+Practical improvements are welcome when they make the workflow easier to fork, run, or adapt. Keep changes focused on the operating workflow and avoid adding private data or mandatory paid dependencies.
+
+## License
+
+MIT License. See [LICENSE](LICENSE).
+
+## Built by
+
+Built by Shubham Singh, a founder-facing operator focused on RevOps, GTM systems, startup metrics, AI workflows, and operating systems for early-stage teams.
+
+## Use this in your company
+
+Fork it, replace the sample inputs with your company context, and run the workflow. Start with the main output listed in the Quick Start section. Keep private data out of public forks.
+
+## If you are a Founder's Office candidate
+
+Use this repo to understand how a founder-facing operator turns messy inputs into decisions, cadence, and execution artifacts. Fork it, adapt it to a real company example, and write a short case note explaining what changed.
+
+---
+
+## Detailed implementation notes
+
+The founder-facing guide above is the fastest path. The original repo-specific notes are preserved below for deeper implementation context.
 
 ## Problem This Solves
 
@@ -18,7 +165,7 @@ Early SaaS founders often know their revenue goal but do not have a clean model 
 
 > A bottom-up SaaS financial model built for an EdTech business, covering revenue build-up, unit economics, P&L, and cash burn over a 36-month horizon.
 
-**Built by:** Shubham Singh  
+**Built by:** Shubham Singh
 **Model Type:** Scenario-driven, assumption-linked (change inputs → all sheets update automatically)
 
 ---
@@ -64,10 +211,10 @@ You can leave the workbook structure, changelog, and model narrative alone on th
 
 ```
 edtech-saas-financial-model/
-├── EdTech_SaaS_Financial_Model.xlsx   # Full financial model (all 6 sheets)
-├── README.md                          # This file
-├── ASSUMPTIONS.md                     # Key model assumptions documented
-├── CHANGELOG.md                       # Version history
+├── EdTech_SaaS_Financial_Model.xlsx  # Full financial model (all 6 sheets)
+├── README.md             # This file
+├── ASSUMPTIONS.md           # Key model assumptions documented
+├── CHANGELOG.md            # Version history
 └── .gitignore
 ```
 
@@ -77,11 +224,11 @@ edtech-saas-financial-model/
 
 | Sheet | Purpose |
 |---|---|
-| **Dashboard** | Summary KPIs and P&L snapshot — start here |
+| **Dashboard** | Summary KPIs and P&L snapshot - start here |
 | **Assumptions** | All blue-cell inputs live here; edit to run scenarios |
 | **Revenue** | Month-by-month MRR build: new customers, churn, expansion, ARR |
 | **UnitEconomics** | LTV, CAC, payback period, NRR with benchmark context |
-| **PnL** | 3-year annual P&L — Revenue, Gross Profit, OpEx, EBITDA |
+| **PnL** | 3-year annual P&L - Revenue, Gross Profit, OpEx, EBITDA |
 | **Burn & Runway** | Monthly cash model with opening/closing cash and runway |
 
 ---
@@ -90,8 +237,8 @@ edtech-saas-financial-model/
 
 | Color | Meaning |
 |---|---|
-| **Blue text** | Hardcoded inputs — edit freely in the Assumptions sheet |
-| **Black text** | Formula-driven — do not edit |
+| **Blue text** | Hardcoded inputs - edit freely in the Assumptions sheet |
+| **Black text** | Formula-driven - do not edit |
 | **Green text** | Cross-sheet references pulling live data |
 
 ---
@@ -143,13 +290,13 @@ edtech-saas-financial-model/
 1. Open `EdTech_SaaS_Financial_Model.xlsx`
 2. Navigate to the **Assumptions** sheet
 3. Edit any **blue** cell to change inputs (ARPU, churn, CAC, starting customers, etc.)
-4. All sheets — Revenue, UnitEconomics, PnL, Burn & Runway — update automatically
+4. All sheets - Revenue, UnitEconomics, PnL, Burn & Runway - update automatically
 5. Check the **Dashboard** for the updated KPI summary
 
 ---
 
 ## About
 
-This model was built as a portfolio artifact demonstrating SaaS financial modelling, unit economics analysis, and scenario planning for an EdTech business context. It reflects real-world modelling conventions used by operators and investors — bottom-up customer cohort logic, formula-linked assumptions, and benchmark-referenced outputs.
+This model was built as a portfolio artifact demonstrating SaaS financial modelling, unit economics analysis, and scenario planning for an EdTech business context. It reflects real-world modelling conventions used by operators and investors - bottom-up customer cohort logic, formula-linked assumptions, and benchmark-referenced outputs.
 
 **Connect:** [LinkedIn](https://www.linkedin.com/in/shubham-singh) | [GitHub](https://github.com/shubham1502-hue)

@@ -1,6 +1,6 @@
 # Model Assumptions
 
-All inputs below map directly to blue cells in the **Assumptions** sheet of `EdTech_SaaS_Financial_Model.xlsx`. Edit those cells to run your own scenario — everything else is formula-driven.
+All inputs below map directly to blue cells in the **Assumptions** sheet of `EdTech_SaaS_Financial_Model.xlsx`. Edit those cells to run your own scenario - everything else is formula-driven.
 
 ---
 
@@ -26,9 +26,9 @@ All inputs below map directly to blue cells in the **Assumptions** sheet of `EdT
 | Monthly Expansion MRR Rate | 0.5% | Upsell / seat expansion on existing MRR base |
 
 **Derived metrics:**
-- Annual Churn (compounded): `1 − (1 − 2%)^12` = **21.5%**
+- Annual Churn (compounded): `1 - (1 - 2%)^12` = **21.5%**
 - Customer Lifetime: `1 ÷ 2%` = **50 months**
-- Monthly NRR: `1 − 2% + 0.5%` = **98.5%**
+- Monthly NRR: `1 - 2% + 0.5%` = **98.5%**
 - Annual NRR: **83.4%**
 
 ---
@@ -55,8 +55,8 @@ All inputs below map directly to blue cells in the **Assumptions** sheet of `EdT
 | R&D / Product | 20% | Engineering + product salaries |
 | G&A | 15% | Finance, HR, admin, legal |
 | **Total OpEx (excl. COGS)** | **70%** | S&M + R&D + G&A |
-| **Gross Margin (implied)** | **80%** | Revenue − COGS |
-| **EBITDA Margin (implied)** | **10%** | Gross Profit − Total OpEx |
+| **Gross Margin (implied)** | **80%** | Revenue - COGS |
+| **EBITDA Margin (implied)** | **10%** | Gross Profit - Total OpEx |
 
 ---
 
@@ -64,7 +64,7 @@ All inputs below map directly to blue cells in the **Assumptions** sheet of `EdT
 
 | Assumption | Default Value | Notes |
 |---|---|---|
-| Starting Cash (₹) | 50,00,000 | Cash at Month 0 — seed or existing funding |
+| Starting Cash (₹) | 50,00,000 | Cash at Month 0 - seed or existing funding |
 
 ---
 

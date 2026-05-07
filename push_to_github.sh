@@ -7,18 +7,18 @@
 # Prerequisites:
 #   - git installed
 #   - GitHub account
-#   - gh CLI installed (https://cli.github.com/) — optional but easiest
+#   - gh CLI installed (https://cli.github.com/) - optional but easiest
 # ============================================================
 
 set -e
 
 REPO_NAME="edtech-saas-financial-model"
-DESCRIPTION="3-year bottom-up SaaS financial model for EdTech — revenue build, unit economics, P&L, and burn/runway."
+DESCRIPTION="3-year bottom-up SaaS financial model for EdTech - revenue build, unit economics, P&L, and burn/runway."
 
 echo "==> Initialising git repo..."
 git init
 git add .
-git commit -m "feat: initial commit — EdTech SaaS 3-year financial model
+git commit -m "feat: initial commit - EdTech SaaS 3-year financial model
 
 - 36-month MRR build: new customers, churn, expansion
 - Unit economics: LTV, CAC, payback, NRR with benchmarks
@@ -37,9 +37,9 @@ if command -v gh &> /dev/null; then
     --push \
     --source=.
   echo ""
-  echo "✅ Done! Repo live at: https://github.com/$(gh api user --jq .login)/$REPO_NAME"
+  echo "Done! Repo live at: https://github.com/$(gh api user --jq .login)/$REPO_NAME"
 
-# Option B: manual — if gh CLI not installed
+# Option B: manual - if gh CLI not installed
 else
   echo ""
   echo "gh CLI not found. Follow these steps manually:"
