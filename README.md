@@ -25,6 +25,8 @@ Early SaaS founders often know their revenue goal but do not have a clean model 
 
 ## Use This In Your Company
 
+This repo is designed to be forked into an internal company workflow. Fork it, replace the sample inputs with your company context, and keep only the parts that match your operating cadence. No permission request or sales call is needed before using it; the repo is the handoff. Check the license if you plan to redistribute your version.
+
 - Use it as a first financial model for SaaS, EdTech, cohort-based courses, or subscription education products.
 - Keep the workbook structure: revenue build-up, unit economics, P&L, burn, and runway.
 - Replace assumptions rather than rebuilding formulas from scratch.
