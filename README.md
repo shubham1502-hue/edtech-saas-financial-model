@@ -33,12 +33,16 @@ This repo is designed to be forked into an internal company workflow. Fork it, r
 
 ## Minimum Edits To Make It Yours
 
-- pricing assumptions
-- conversion and retention assumptions
-- hiring and cost plan
-- fundraise/runway assumptions
+Change these first:
 
-The fastest path is: fork the repo, replace the inputs above, run the demo or open the template, then adjust only the parts that reflect your company's workflow.
+| Edit | Where | Why |
+|---|---|---|
+| Replace pricing and package assumptions. | `EdTech_SaaS_Financial_Model.xlsx` and `ASSUMPTIONS.md` | Revenue, ARPU, and payback depend on these first. |
+| Update conversion, retention, and churn assumptions. | `EdTech_SaaS_Financial_Model.xlsx` | These drive customer growth and revenue quality. |
+| Replace hiring and operating-cost plan. | `EdTech_SaaS_Financial_Model.xlsx` | Makes runway and burn reflect your actual team plan. |
+| Update fundraise and runway scenarios. | `ASSUMPTIONS.md` | Keeps the model useful for investor or board conversations. |
+
+You can leave the workbook structure, changelog, and model narrative alone on the first fork. Change assumptions before adding tabs or rebuilding formulas.
 
 ## Model Overview
 
