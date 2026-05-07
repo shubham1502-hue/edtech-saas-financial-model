@@ -85,6 +85,14 @@ The default sample data and examples are synthetic, anonymized, or template-only
 - `EdTech_SaaS_Financial_Model.xlsx`: full financial model
 - `ASSUMPTIONS.md`: assumption guide
 
+## Sample artifacts to inspect
+
+Open these before editing assumptions:
+
+- `EdTech_SaaS_Financial_Model.xlsx`: the working model and main artifact.
+- `ASSUMPTIONS.md`: the assumption map for editable workbook cells.
+- `CHANGELOG.md`: model history and positioning notes.
+
 ## Example founder workflow
 
 - Monday: update assumptions.
