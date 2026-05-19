@@ -4,6 +4,10 @@ Bottom-up SaaS financial model connecting customers, ARPU, churn, CAC, burn, run
 
 <!-- FOUNDER_OS_STANDARD_README -->
 
+## Portfolio role
+
+This is a basic financial modeling repo. It supports the portfolio by showing assumption-driven SaaS forecasting, unit economics, burn, and runway logic. It is useful for finance and strategy signal, not as a flagship operating-system repo.
+
 ## The founder problem
 
 Early SaaS founders often know the revenue target but do not have a clean model connecting growth, retention, pricing, hiring, burn, runway, and profitability. That makes fundraising and hiring conversations vague.
